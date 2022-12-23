@@ -1,0 +1,17 @@
+[FILE]
+accounts.txt
+
+[API KEY]
+LVWYW0fMk5m70xsZysEeKLz4rLLuoO
+
+[COUNTRY CODE]
+FR
+
+[SERVICE]
+opt53
+
+[NO SCREEN]
+no
+
+[GAP]
+15

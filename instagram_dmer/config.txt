@@ -1,0 +1,14 @@
+[CHROME DIRECTORY]
+C:\Users\ka4ma\AppData\Local\Google\Chrome\User Data\Profile 2
+
+[MESSAGE LIST]
+messages.txt
+
+[PEOPLE LIST]
+people.txt
+
+[CHROME VERSION]
+105
+
+[REST AFTER EACH (SECONDS)]
+2-5

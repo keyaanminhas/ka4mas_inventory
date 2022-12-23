@@ -1,0 +1,11 @@
+[VERSION]
+105
+
+[CHROME PROFILE DIRECTORY]
+C:\Users\ka4ma\AppData\Local\Google\Chrome\User Data\Profile 2
+
+[LIST PRICE]
+1400
+
+[SPEED/DELAY]
+1

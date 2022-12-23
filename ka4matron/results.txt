@@ -1,0 +1,66 @@
+{
+    "admin": {
+        "city": "Harahan",
+        "country": "US",
+        "email": "yourwebsite.com@fab.JewellaPrivacy.com",
+        "fax": "",
+        "name": "Jewella Privacy",
+        "organization": "Jewella Privacy LLC Privacy ID# 1129638",
+        "phone": "+1.5043550545",
+        "region": "LA",
+        "street_address": "5860 Citrus Blvd, Suite D, #172",
+        "zip_code": "70123"
+    },
+    "billing": {
+        "city": "",
+        "country": "",
+        "email": "",
+        "fax": "",
+        "name": "",
+        "organization": "",
+        "phone": "",
+        "region": "",
+        "street_address": "",
+        "zip_code": ""
+    },
+    "create_date": "1998-01-01T23:00:00Z",
+    "domain": "yourwebsite.com",
+    "domain_age": 8720,
+    "domain_id": "1583363_DOMAIN_COM-VRSN",
+    "expire_date": "",
+    "nameservers": [
+        "TIA.NS.CLOUDFLARE.COM"
+    ],
+    "registrant": {
+        "city": "Harahan",
+        "country": "US",
+        "email": "yourwebsite.com@fab.JewellaPrivacy.com",
+        "fax": "",
+        "name": "Jewella Privacy - 5b19c",
+        "organization": "Jewella Privacy LLC Privacy ID# 1129638",
+        "phone": "+1.5043550545",
+        "region": "LA",
+        "street_address": "5860 Citrus Blvd, Suite D, #172",
+        "zip_code": "70123"
+    },
+    "registrar": {
+        "iana_id": "411",
+        "name": "Sea Wasp, LLC",
+        "url": "http://www.fabulous.com"
+    },
+    "status": "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)",
+    "tech": {
+        "city": "Harahan",
+        "country": "US",
+        "email": "yourwebsite.com@fab.JewellaPrivacy.com",
+        "fax": "",
+        "name": "Jewella Privacy",
+        "organization": "Jewella Privacy LLC Privacy ID# 1129638",
+        "phone": "+1.5043550545",
+        "region": "LA",
+        "street_address": "5860 Citrus Blvd, Suite D, #172",
+        "zip_code": "70123"
+    },
+    "update_date": "2020-11-17T01:08:17Z",
+    "whois_server": "whois.fabulous.com"
+}

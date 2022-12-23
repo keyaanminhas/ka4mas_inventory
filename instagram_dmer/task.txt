@@ -1,0 +1,8 @@
+I have a customer who tenders us over loads of freight, they send it out to 20 or so people, and whoever gets there first gets the business. I am looking for a way to automate this process to get more business.
+
+I log into this website (screenshot step 1), then hit the execution button (screenshot step 2), be in the tenders tab (SS step 3) the bot would have to constantly hit the "go" button to refresh the tenders that come over. When one shows up "click" on the load (step 4), hit accept (SS Step 5), Fill in a reference number (123 works), and hit accept again (step 6).
+
+If this process can be automated, can I also set parameters on what it accepts in Step 4/5?
+
+
+
