@@ -1,0 +1,41 @@
+First we run the run1 file to get the titles from the roblox website
+
+Now we wait....
+
+file was there from previous test...
+
+DONE
+I am going to use 2 titles as I dont have much credit
+
+run2 is to generate the text from the AI website
+
+Now we wait.... this might take a while......
+
+here we will see our file
+
+First title is complete now we wait for the second one.. you can skip the video i guess
+
+each title takes about 1 minute....
+
+THATS our titles....
+
+
+
+now the third step is to add the code snippets and little bit formatting which will make it ready to upload
+
+
+run3 does that
+
+and we have our md files
+
+
+To upload we use run4
+
+
+we wait like 5-10 seconds....
+one down
+two down.... done
+and now we can check github
+
+bye
+
