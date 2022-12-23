@@ -1,0 +1,8 @@
+[CHROME VERSION]
+106
+
+[PROFILE PATH]
+C:\Users\ka4ma\AppData\Local\Google\Chrome\User Data\Profile 3
+
+[Trailing Stop Loss Initial]
+40

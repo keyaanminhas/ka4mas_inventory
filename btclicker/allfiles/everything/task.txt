@@ -1,0 +1,53 @@
+I want modification on extra click, I want to get the extra click by price change.
+
+We have to add 2 paramteres:
+- Extra click amount
+- Extra percentage
+
+You have to delete the extra click time feature.
+
+For this example we set the extra click amount to 1000 and percentage to 40.
+
+After we got A or B click the software must to wait 1 second before any extra click. Until this 1 second the software should make triple click on the price that software can read the prices again.
+
+For example if the A click's price was set to 2000 and we got A click (the btc price chnaged from 30000 to 30020), then software should make extra click if the price moving back under 1400 (under 30014).
+How we got the 1400 amount? Its very simple: we extracted the 1000 (extra amount from A amount (2000)), and we added 40% of extra amount to the result which is 400.
+
+And now the important part: if the price not moving back under 30014 (holds itself or goes up) then software should wait for extra click and should working like a trailing stop.
+If the price holds itself between 30014 and 30020, then we should get extra click INSTANTLY if the price moving back under 30014. But if the price moving above 30020 for example to 30030, then software should change the extra click price to 30018.
+How we got 30018? We simple added 40% of additional price change.
+If the price goes further up fro example to 30050, then software should change the extra click price 30026 (30010 + 1000 of 40% (extra click amount of 40% which is 400) + additional price chnage of 40% (3000 of 40% which is 1200) = 30026).
+If the price moving back under 30026, then we should get extra click instantly. If the price goes further up without touching the actual extra click price, the software should change again and again the extra click price as soon as we get new highest price since A click.
+
+So The formula of extra click price (where we have to get the extra click) is simple after A click: "A click amount" - "Extra click amount" + extra click amount of 40%.
+
+
+Other example:
+We set A and B amounts to 4000, extra click amount to 2000 and extra percentage to 30.
+
+Price chnaged from 30000 to 29960 within the time frame. We get B click. Software should set extra click price to 29974. If the price goes above that, we should get extra click INSTANTLY.
+If the price goes further down then software should change the extra price again. If price change to 29900, then new extra click price will be 29956
+
+
+How we got it?
+30000 is the starting price, 40 is the B amount, 20 is the extra click amount. (30000-40+20=29980). New lowest price was 29900. 30% distance between 29980 and 29900 is 29956.
+In this case software should wait until price go back to above 29956 and get extra click instantly or waiting for new lowest price and change extra click price again.
+
+I hope you got it. If not, please check newexample txt for other example!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

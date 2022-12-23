@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "primeval-gizmo-350417",
+  "private_key_id": "6d9aa863db767e7ab83471ef9ab3c0c92354a6b5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuQIBADANBgkqhkiG9w0BAQEFAASCBKMwggSfAgEAAoIBAQDx0JpQl3wH6S0S\n6wfce1WOPlYV/LJqbNUCCpUyVP7zOuPdx1ghnXEJbwzpQ8o4gzNi+90YYkgr2yQK\nxRbM7PBdjF5qJMvX/cmmAMN/0qw0ty8Ac13wki57+D/5WMrjrEdhXksGTnV2aWDZ\neyH6hwPJaMCn15S4xEa2geLXIxycAbKLUUHux2qJU4ZdzHr+eYQh7frpEGYDCJ7t\n6TCnCN/RhDVqemsQF9rXbLv4HzBitaUiQESX6v+mcTf08itTo/ul6/Psc2BgI2UK\ndFaIskFh1hTFSe3M63e2qGpecz+fV4nXXBOmSDxG9iVBDEVF8hWjTUaCLnwbbrIk\ngzH9dDtpAgMBAAECggEACFZ2tFZtewQuhGSuTYCDACUfWKxRFmO+BPnf2tT3gk66\no7ofbG+hAa/5QvOYzdxylERGWMnDvrUJxTrLjlbm80zMm8OSHpaO4kPMDzSwsMkh\nAbaYoREYm/hAyXHRs2phvtuugc9I/s4Y84AVbqMC4woS/Ck4uisKBqSMHCT8aVcW\n/CHbCY9IS55exx1sDL6miV9iVrOj4bxB0msoDptBTWhZVu2Xg5WXzMqstE/OsiJd\nGY942ZuwhjSKChXTyl2XoCKEtvT9UWd5xvErElPZT0DhnmY8RKmKSylO8xski4af\nFpFeWvvbeMjTGgQ+XokTCxVbXXe5nptPYpSYyXJ+QQKBgQD6PzBn72hnn6SnfmzJ\nIrZ4kUfbEzYc9giqm8T59lJsOpZMWapBXvkVpxsCuxmYtQesllbY60ZhTam/8eMs\n4GpIs1GT2uO5uxJw6J8QIjj2+GjzVIZ9/OE2XBiPtMsWeP31a+L5qdxV0nrRRAwi\ndt4I/P6ZiN/j6y2eGVsnJ5b9wQKBgQD3X8mxumrfB8LszwwH9UHuEwGcDTwHtONE\nU1CGyyYxbeRjxf+Op6TLdgXsnc/P+u+XMVV3RwSzbjKgaLGhLWHB0caBE4QODUhL\nK8aS/44YwY2LtiQfwxJAezOBoJaIK7K4dRHbVJG5kSvwiKpjoDJ92skb7pOq0eqE\nW76jI1J3qQKBgB3wq3jz8tjbB9cmUBusdIpuT1uNq97BLP5EjsedSfU6+Tp/S9hw\nZXrKuHeWLRTRK+7hOdjQJWaE5Tda2GRJIU47bhoziSVylV0+57EFdy1NQTlDtqei\nNsvLLwEaj2XL6g6P7uMSCJOYECuzaYRCFoSayFdUQf1B6P5OaFKB8RXBAoGAdNtk\nHTgx6h/xfgqk5VF/jqad2QkLdZyGy60L2lE3PpxqCpPrEImzOIYNcGRwWhBxhBvD\nAvCikNyav9oVJ02X44ZkXm9Ir5aosxH/4Usl5h3w7rHhSLvO8HUCtNaWpcb2y1pK\nUDEYEfA5MIxu6Vcw4vEqla5TRZuaTGJGoSw7ddkCfmkqHHX11/KymfrnhyRsEtHk\nrSmHv4c5Y1ok3/v8sJ7sFbeukgfZ7U94kgqzvIuHY3jlDAXG/lxJbG7yCFoaM/i3\nQAnFEtzr0GCUkkU1pMEvCLaHTY7BN9drtmLMzRZQYQEeAK/CgG4o1D4pvdyygeeJ\nPsWhzzUhY4z6Ya5oLQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "fiverr-scraper@primeval-gizmo-350417.iam.gserviceaccount.com",
+  "client_id": "111978296470565464987",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fiverr-scraper%40primeval-gizmo-350417.iam.gserviceaccount.com"
+}

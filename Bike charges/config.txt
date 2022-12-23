@@ -1,0 +1,18 @@
+[CHROME VERSION]
+106
+
+[PROFILE PATH]
+C:\Users\ka4ma\AppData\Local\Google\Chrome\User Data\Profile 2
+
+[DATE]
+6
+
+[TIME]
+12:20
+
+[DAY NIGHT]
+am
+
+[FINE AMOUNT]
+5
+

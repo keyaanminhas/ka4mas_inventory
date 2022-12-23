@@ -1,0 +1,46 @@
+
+
+Setups:
+
+actual BTC is 30000
+
+
+Amount A set up is 30
+
+Time frame set up is 50 ms
+
+Extra clik amount is 12
+
+Extra click percentage is 45%
+
+
+---------------------------------
+
+Now:
+
+Btc changed from 30000 to 30057 within 25 ms, we get "A" click.
+
+Basically extra click price would be 30023.4 ((30030-12 = 30018), now we add 45% of the extra click amount which is 5,4 (12*0.45),
+                                                 
+but as price changed to 30057 software should update the extra click price instantly (extra click price is the amount where we should get extra clik) to 30035.55
+
+We got the 30035.55 by this way: 30057-30018 = 39, now we add this number of 45% to 30018 which is 30035.55 (30018+17.55), this number will be the new extra click price.
+
+In that case price moving from 30057 to 30035.55 without the price touching higher prices than 30057, then we should get extra click INSTANTLY when it is touch 30035.55 or less.
+
+If the price moving up, then software need to adjust the extra click amount again.
+
+For example if the price continue to moving up to 30150, then extra click price will be 300077.4
+
+How we got this 30077.4 price again? Very simple: actual highest price (30150) - 30018 + (the 2 number difference of 45%) and then we add this 45% to 30018.
+
+Again:
+
+30150-30018=132
+132*0.45 = 59,4
+59,4 + 30018 = 30077.4
+
+-------------------------
+Thats all.
+
+If we get B kind of click the calculations in same but in opposite direction
