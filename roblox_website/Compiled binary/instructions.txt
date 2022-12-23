@@ -1,0 +1,38 @@
+##SETTINGS
+
+1. The first line of the config.txt file is for chrome profile directory. Which can be found by typing chrome://version in search bar
+   eg. 	C:\Users\ka4ma\AppData\Local\Google\Chrome\User Data\Profile 1 we can remove the profile from it and add in the second line.
+   C:\Users\ka4ma\AppData\Local\Google\Chrome\User Data
+   Profile 1
+
+2. The second line is for profile which we just got by extracting from the complete profile path.... Profile 1
+
+3. Third line is if you have Maximawrites premium then you dont need to wait and can replace the yes with a no in the config file.
+   the third line will look like:- INITIAL_WAIT=no
+
+4. The last line is the github token which helps to login and upload the files. I have generated a token for unlimited time from your github account. So no need to change it
+
+
+
+
+##RUNNING
+
+run1_titles.exe
+This file fetches all the titles from the discord discover page and saves them to a file in the end. It will auto close and you will see a file named 'titles.txt' Please dont change names of files and folders
+
+run2_AI.exe
+This exe will open chrome which you can minimize. This will use the titles file and generate text for each title in the titles file.
+
+run3_formating.exe
+This exe will basically create.md files, add the code snippet, and make the files ready for upload all together.
+
+run4_upload.exe
+This will connect to your github account and upload if the files doesnt exist and if it does then it will update the file.
+
+
+
+
+###IMPORTANT
+Try to not change the file and folder names.
+Make sure chrome is updated. Latest version right now is 103. To check version > chrome://version
+Some files require other files so dont delete any files.... The run2_AI requires a file named "titles.txt" and wont run without it.

@@ -1,0 +1,20 @@
+[GITHUB TOKEN]
+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
+
+[PARAGRAPH COUNT]
+5
+
+[CODE SNIPPET]
+[![button image](https://github.com/simsmod/simsmod.github.io/blob/main/button.png?raw=true)](https://filemega.cloud/download-sims-cc)
+
+[CODE SNIPPET AFTER WHICH PARAGRAPH]
+4
+
+[UPLOAD GAP]
+2
+
+[GITHUB REPOSITORY]
+random
+
+[PARAGRAPH BREAK]
+3

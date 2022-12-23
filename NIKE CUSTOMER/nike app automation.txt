@@ -1,0 +1,18 @@
+nike snkrs app
+
+adb shell "dumpsys window windows | grep -E 'mCurrentFocus'"
+
+app pakage = com.nike.snkrs
+
+app acivity = com.nike.snkrs.feed.activities.TheWallActivity
+
+C:\Users\ka4ma\Downloads\nike.apk
+
+
+{
+  "deviceName": "Android Emulator",
+  "platformName": "Android",
+  "appPackage": "com.nike.snkrs",
+  "appWaitActivity": "com.nike.snkrs.feed.activities.TheWallActivity",
+  "app": "C:\\Users\\ka4ma\\Downloads\\nike.apk"
+}
