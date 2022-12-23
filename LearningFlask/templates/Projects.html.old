@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/183516/gilroy-webfont.css">
+    <!--[if !IE]><script src="{{ url_for('static',filename='js/navbar.js') }}"></script><![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/Projects.css') }}">
+
+
+    <title>Projects</title>
+  </head>
+<!-- @NOTE: the onclicks are used for touch devices since I'm lazy and didnt use <a> tags -->
+<div class="nav">
+  <div class="link">
+    <a href="#">Home</a>
+  </div>
+  <div class="link">
+    <a href="#">Dashboard</a>
+  </div>
+  <div class="link">
+    <a href="#">Services</a>
+  </div>
+  <div class="link">
+    <a href="#">About</a>
+  </div>
+  <div class="link">
+    <a href="#">Contact us</a>
+  </div>
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <br>
+    <br>
+    <br>
+    <h1><span class="blue">&lt;</span>My<span class="blue">&gt;</span> <span class="yellow">Projects</pan></h1>
+<h2>records/time-line of <a href="https://github.com/pablorgarcia" target="_blank">My projects</a></h2>
+
+<table class="container">
+  <thead>
+    <tr>
+      <th><h1>Project</h1></th>
+      <th><h1>Date</h1></th>
+      <th><h1>Efforts</h1></th>
+      <th><h1>Rating</h1></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in items %}
+      <tr>
+        <td>{{item.proj}}</td>
+        <td>{{item.date}}</td>
+        <td>{{item.eff}}</td>
+        <td>{{item.rate}}</td>
+      </tr>
+    {% endfor %}
+
+  </tbody>
+</table>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
