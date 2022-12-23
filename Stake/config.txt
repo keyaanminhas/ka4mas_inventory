@@ -1,0 +1,35 @@
+========= BET AMOUNT =========
+
+0.00000000
+
+======== ON LOSS =============
+
+4
+
+====== STOP ON PROFIT ======
+
+0.00000003
+
+========= TARGET =============
+
+10
+
+====== FAIRNESS NUMBER ======
+
+50
+
+======== WHEN SLEEP =========
+
+20
+
+======== SLEEP TIME ==========
+
+0
+
+========= DATA DIRECTORY =========
+
+C:\Users\ka4ma\AppData\Local\Google\Chrome\User Data
+
+======== PROFILE NAME ===========
+
+Profile 1

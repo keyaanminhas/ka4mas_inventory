@@ -1,0 +1,20 @@
+[VERSION]
+105
+
+[ACCOUNT NUMBER]
+HLLR56V
+
+[USERNAME]
+adminsupport
+
+[PASSWORD]
+trucking2022
+
+[REFERENCE NUMBER]
+123
+
+[ACCEPTED SHIPPERS]
+Schenker, Royal Group, Westlake Chemical
+
+[ACCEPTED ORIGIN CITY]
+Sturtevant
